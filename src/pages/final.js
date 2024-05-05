@@ -3,9 +3,9 @@
 import React, { useState, useEffect } from 'react';
 import * as d3 from 'd3';
 import { Row, Col, Container } from 'react-bootstrap';
-import WorldMap from './components/worldmap';
-import ScaleBar from './components/scalebar';
-import Bars from './components/bar';
+import WorldMap from '../worldmap';
+import ScaleBar from '../scalebar';
+import Bars from '../bar';
 
 // Define the CSV file URL
 const csvUrl = 'https://gist.githubusercontent.com/HatteySun/72a2713ff27ce39d35d9f4d4d9535317/raw/40f7046a9088dec0fac0de1c12dbdc5a090d15b6/Happiness_data';
